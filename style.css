@@ -9,7 +9,7 @@ font-family: 'Playfair Display', serif; */
     padding: 0;
 }
 
-hmtl {
+html {
     overflow: auto;
     height: 100%;
     width: 95%;
@@ -19,7 +19,7 @@ hmtl {
 
 body {
     margin: 0;
-    width: 1366px;
+    width: 1519px;
     position: absolute;
     right: 0;
     left: 0;
@@ -29,72 +29,57 @@ body {
 
 /* MENU DE NAVEGAÇÃO */
 /* Botões com hover para outra cor*/
-/* Botão sobre*/
-#sobre1 {
-    background-color: #cacecd;
-    border: none;
+/* BOTÕES */
+
+.nav-link{
+    border: 0px;
+    padding: 0px;
+}
+.nav-item{
+
     color:  rgb(85, 117, 81, .7);   
     cursor: pointer;
-    margin-right: 8px;
-    padding: 1px 5px 1px 5px;
-    vertical-align: bottom;
-    transition: background-color 0.15s, color 0.15s ;
-}
-
-#sobre1:hover {
-    background-color:  rgb(85, 117, 81, .7);
-    color: #cacecd; 
-}
-
-#sobre1 {
-    opacity: 0.9;
-}
-
-/*Botão contato*/
-#contato1 {
-    background-color: #cacecd;
-    border: none;
-    color:  rgb(85, 117, 81, .7);   
-    cursor: pointer;
-    margin-right: 8px;
-    padding: 1px 5px 1px 5px;
-    vertical-align: bottom;
-    transition: background-color 0.15s, color 0.15s ;
-}
-
-#contato1:hover {
-    background-color:  rgb(85, 117, 81, .7);
-    color: #cacecd; 
-}
-
-/* Botão Agende Já*/
-#agende1 {
-    background-color: #cacecd;
-    border: none;
-    color:  rgb(85, 117, 81, .7);   
-    cursor: pointer;
-    margin-right: 8px;
-    padding: 1px 5px 1px 5px;
+    padding-right: 8px;
     vertical-align: bottom;
     transition: background-color 0.15s, color 0.15s;
 }
 
-#agende1:hover {
+.nav-link:hover {
     background-color:  rgb(85, 117, 81, .7);
     color: #cacecd; 
 }
-
 .container-fluid {
-    background-color: #cacecd;
-    width: 1366px;
+    background-image: linear-gradient(125deg, #cacecd, #adb49c);
+    width: 1519px;
 }
 
+/* CARROSSEL */
+.bg-img-1 {
+    background-image: url(img/background.jpg);
+}
+
+.bg-img-2 {
+    background-image: url(img/background1.jpg);
+}
+
+.bg-img-3 {
+    background-image: url(img/background3.jpg);
+}
+
+.carousel-image {
+    height: 580px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* NOME LOGO */
 .navbar-brand { 
     font-family: 'Caveat', cursive;
     color:#394937;
     font-size: 35px;
-    margin-left: 20px;
-    margin-right: 900px ;
+    margin-left: 40px;
+    margin-right: 800px ;
     text-shadow: 2px 2px #afafaf;
 }
 
@@ -102,10 +87,6 @@ body {
     height: 580px;
     width: 100%;
     color: #394937;
-    background-image: url(img/background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 0 center;
 }
 
 /* LOGO */
@@ -115,7 +96,7 @@ body {
     width: 370px;
     height: 180px;
     position: absolute;
-    margin-top: 180px;
+    margin-top: -380px;
     margin-left: 120px;
     border-radius: 5px 50px 5px 50px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
@@ -149,7 +130,7 @@ body {
         
 #img-manicure img {
     grid-area: 1 / 1 / 2 / 2;
-    margin-top: 70px;
+    margin-top: 180px;
     margin-left: 100px;
     width: 500px;
     height: 400px;
@@ -158,7 +139,7 @@ body {
 
 #sobre-tit {
     grid-area: 1 / 2 / 2 / 3;
-    margin-top: 65px;
+    margin-top: 170px;
     color: #394937;
     font-family: 'Playfair Display', serif;
 }
@@ -172,7 +153,7 @@ body {
     grid-area: 2 / 2 / 3 / 3;
     text-align: justify;
     width: 510px;
-    margin-top: -410px;
+    margin-top: -360px;
     margin-bottom: 600px;
     font-family: 'Playfair Display', serif;
     border-bottom: 1px solid #394937;
@@ -184,4 +165,9 @@ body {
     font-family: 'Caveat', cursive;
     margin-left: 3px;
     font-size: 18px;
+}
+
+/* SERVIÇOS */
+#servicos img {
+    width: 10px;
 }
