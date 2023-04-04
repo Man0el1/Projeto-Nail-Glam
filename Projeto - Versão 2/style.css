@@ -1,0 +1,323 @@
+/* FONTeS
+font-family: 'Caveat', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Lobster Two', cursive;
+font-family: 'Playfair Display', serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+hmtl {
+    overflow: auto;
+    height: 100%;
+    width: 95%;
+    margin: auto;
+    font-size: 100%;
+}
+
+body {
+    margin: 0;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+/* MENU DE NAVEGAÇÃO */
+/* Botões com hover para outra cor*/
+/* BOTÃO SOBRE */
+#sobre1 {
+    background-color: #cacecd;
+    border: none;
+    color:  rgb(85, 117, 81, .7);   
+    cursor: pointer;
+    margin-right: 8px;
+    padding: 1px 5px 1px 5px;
+    vertical-align: bottom;
+    transition: background-color 0.15s, color 0.15s ;
+}
+
+#sobre1:hover {
+    background-color:  rgb(85, 117, 81, .7);
+    color: #cacecd; 
+}
+
+/* BOTÃO SERVIÇOS */
+#servicos1 {
+    background-color: #cacecd;
+    border: none;
+    color:  rgb(85, 117, 81, .7);   
+    cursor: pointer;
+    margin-right: 8px;
+    padding: 1px 5px 1px 5px;
+    vertical-align: bottom;
+    transition: background-color 0.15s, color 0.15s ;
+}
+
+#servicos1:hover {
+    background-color:  rgb(85, 117, 81, .7);
+    color: #cacecd; 
+}
+
+/* BOTÃO PITCH */
+#video1 {
+    background-color: #cacecd;
+    border: none;
+    color:  rgb(85, 117, 81, .7);   
+    cursor: pointer;
+    margin-right: 8px;
+    padding: 1px 5px 1px 5px;
+    vertical-align: bottom;
+    transition: background-color 0.15s, color 0.15s ;
+}
+
+#video1:hover {
+    background-color:  rgb(85, 117, 81, .7);
+    color: #cacecd; 
+}
+
+/* BOTÃO CONTATO */
+#contato1 {
+    background-color: #cacecd;
+    border: none;
+    color:  rgb(85, 117, 81, .7);   
+    cursor: pointer;
+    margin-right: 8px;
+    padding: 1px 5px 1px 5px;
+    vertical-align: bottom;
+    transition: background-color 0.15s, color 0.15s ;
+}
+
+#contato1:hover {
+    background-color:  rgb(85, 117, 81, .7);
+    color: #cacecd; 
+}
+
+/* BOTÃO AGENDAMENTO */
+#agende1 {
+    background-color: #cacecd;
+    border: none;
+    color:  rgb(85, 117, 81, .7);   
+    cursor: pointer;
+    margin-right: 8px;
+    padding: 1px 5px 1px 5px;
+    vertical-align: bottom;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+#agende1:hover {
+    background-color:  rgb(85, 117, 81, .7);
+    color: #cacecd; 
+}
+
+.container-fluid {
+    background-color: #cacecd;
+}
+
+/* CARROSSEL */
+.bg-img-1 {
+    background-image: url(img/background.jpg);
+}
+
+.bg-img-2 {
+    background-image: url(img/background1.jpg);
+}
+
+.bg-img-3 {
+    background-image: url(img/background3.jpg);
+}
+
+.carousel-image {
+    height: 580px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* NOME LOGO */
+.navbar-brand { 
+    font-family: 'Caveat', cursive;
+    color:#394937;
+    font-size: 35px;
+    margin-left: 40px;
+    margin-right: 800px ;
+    text-shadow: 2px 2px #afafaf;
+}
+
+#nav-bar {
+    height: 580px;
+    width: 100%;
+    color: #394937;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+/* LOGO */
+#name {
+    background: #394937;
+    background: radial-gradient(circle, rgba(57,73,55,1) 0%, rgba(102,147,97,1) 55%, rgba(102,147,97,1) 87%);
+    width: 370px;
+    height: 180px;
+    position: absolute;
+    margin-top: -380px;
+    margin-left: 120px;
+    border-radius: 5px 50px 5px 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+#name h1 {
+    font-family: 'Caveat', cursive;
+    color: #C8CDCD;
+    padding: 24px 0px 0px 30px;
+    font-weight: 700px;
+    font-size: 70px;
+}
+
+#name h4 {
+    font-family: 'Playfair Display', serif;
+    color: #C8CDCD;
+    margin: -5px;
+    padding: 0px 0px 0px 40px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+/* SOBRE */
+#sobre {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    margin: 2vh auto;
+}
+
+#sobre-txt {
+    margin: auto;
+    width: 33vw;
+    margin-top: 200px;
+}
+
+#sobre-tit {
+    color: #394937;
+}
+
+#sobre-par {
+    text-align: justify;
+    border-bottom: 1px solid #394937;
+    border-top: 1px solid #394937;
+}
+
+#sobre-par span{
+    font-family: 'Caveat', cursive;
+    margin-left: 3px;
+    font-size: 18px;
+}
+
+#sobre-tit span{
+    font-family: 'Caveat', cursive;
+    margin-left: 5px;
+}
+
+#img-manicure img {
+    grid-area: 1 / 1 / 2 / 2;
+    margin-top: 180px;
+    margin-left: 100px;
+    width: 500px;
+    height: 400px;
+    box-shadow: 15px 15px #394937d3;
+}
+
+/* SERVIÇOS */
+#servicos {
+    padding-bottom: 20vh;
+}
+
+#servicos h2 {
+    text-align: center;
+    margin: auto;
+    width: 33vw;
+    border-bottom: 1px solid #394937;
+    padding-bottom: 2vh;
+    margin-top: 12vh;
+}
+
+#servicos-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 12vh;
+}
+
+#servicos-cards img {
+    width: auto;
+    height: auto;
+}
+
+.btn-servico {
+    color: #000000;
+    background-color: #cacecd;
+    border-color: #cacecd;
+}
+
+.btn-servico:hover {
+    color: #ffffff;
+    background-color: #394937;
+    border-color: #394937;
+}
+
+.card-title {
+    font-weight: bold;
+}  
+
+/* PITCH */
+#pitch-tit h1{
+    font-size: 2rem;
+    text-align: center;
+    margin: auto;
+    width: 33vw;
+    border-bottom: 1px solid #394937;
+    padding-bottom: 2vh;
+    margin-top: -60px;
+}
+
+#video-pitch {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* CONTATOS */
+#contato {
+    background: rgb(57, 73, 55, .5);
+    margin-top: 60px;
+    height: 350px;
+}
+
+#name-footer h1 {
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    color: #ffffff;
+    padding: 50px 0px 0px 0px;
+    font-weight: 700px;
+    font-size: 35px;
+}
+
+#name-footer h4 {
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
+    text-align: center;
+    padding: 0px 0px 0px 5px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.nav-footer li{
+    float: left;
+    width: 100px;
+    list-style: none;
+
+}
